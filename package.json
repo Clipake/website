@@ -1,0 +1,23 @@
+{
+  "name": "clipake.github.io",
+  "version": "1.0.0",
+  "description": "my personal site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clipake/Clipake.github.io.git"
+  },
+  "author": "tz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clipake/Clipake.github.io/issues"
+  },
+  "homepage": "https://github.com/Clipake/Clipake.github.io#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
