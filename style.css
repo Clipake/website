@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Code", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    display: list-item;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(236, 216, 175);
+
+}
+.block {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 20vh;
+    width: 80vh;
+    padding: 10px;
+
+    background-color: rgb(238, 218, 171);
+    border: 3px solid;
+    border-color: rgb(162, 142, 117);
+}
