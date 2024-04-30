@@ -33,7 +33,7 @@ body{
     position: absolute;
     vertical-align: middle;
     top: 0; left: 0; bottom: 0; right: 0;
-    width: 400px;
+    width: 300px;
     height: 50%;
     overflow: auto;
     margin: auto;
@@ -41,7 +41,10 @@ body{
     align-items: center;
     text-align: center;
 
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
 }
+
 
 #buttoncontainer{
     /* container for buttons */
@@ -65,4 +68,18 @@ body{
     text-decoration: none;
 
     border-radius: 15px;
+}
+
+#iconcontainer{
+    /* container for icons */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    border: 5px solid black;
+    
+}
+.socialmedia{
+    width: 50px;
+    height: 50px;
 }
