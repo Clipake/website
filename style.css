@@ -29,27 +29,43 @@ body{
 
 #mainholder{
     /* left side, fades into transparency */
-    display: grid;
+    display: list;
     position: absolute;
-    vertical-align: middle;
     top: 0; left: 0; bottom: 0; right: 0;
     width: 300px;
-    height: 50%;
+    height: 75%;
     overflow: auto;
     margin: auto;
 
-    align-items: center;
+    align-items: start;
     text-align: center;
 
     background-color: rgb(0, 0, 0, 0.2);
     border-radius: 15px;
+
+    padding: 20px 20px 20px 20px;
+
+    overflow: none;
 }
 
+
+#iconcontainer{
+    /* container for icons */
+    display: list;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid black; */
+    
+}
+.socialmedia{
+    width: 50px;
+    height: 50px;
+}
 
 #buttoncontainer{
     /* container for buttons */
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
 }
 
@@ -58,7 +74,7 @@ body{
     display: block;
     width: 100%;
     height: 7vh;
-    background-color: rgba(144, 144, 144, 0.35);
+    background-color: rgba(144, 144, 144, 0.25);
     color: white;
     border: none;
     font-size: 1.5em;
@@ -68,18 +84,4 @@ body{
     text-decoration: none;
 
     border-radius: 15px;
-}
-
-#iconcontainer{
-    /* container for icons */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    justify-content: center;
-    border: 5px solid black;
-    
-}
-.socialmedia{
-    width: 50px;
-    height: 50px;
 }
